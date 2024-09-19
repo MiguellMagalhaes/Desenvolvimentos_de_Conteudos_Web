@@ -1,0 +1,107 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#6abadeba;
+    font-family: 'Arial';
+    background-image: url("../login_back.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.login{
+        width: 350px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 100px;
+        background: #60a798;
+        border-radius: 30px ; 
+        margin-top: 3%; 
+
+}
+h2{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+
+}
+label{
+    color: #0d0f0f;
+    font-size: 17px;
+}
+#email_login{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#pass_login{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log_butao{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: rgb(3, 3, 10);
+
+
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+a{
+    float: right;
+    background-color: grey;
+}
+#check{
+    top: 10%;
+    margin-left: 13%;
+
+}
+
+.lembrar{
+    top: 10%;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 16px;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    background-color:#258383
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    text-transform: uppercase;
+}
