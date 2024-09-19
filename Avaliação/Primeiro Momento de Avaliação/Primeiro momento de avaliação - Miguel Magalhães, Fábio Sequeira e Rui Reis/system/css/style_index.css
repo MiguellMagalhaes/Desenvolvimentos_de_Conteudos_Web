@@ -1,0 +1,66 @@
+.banner{
+    background-image: url("index_back.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #c59db8;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.texto{
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(231, 231, 241);
+}
+
+.suporte{
+    width: 100%;
+    top: 90%;
+    text-align: center;
+    position: absolute;
+}
