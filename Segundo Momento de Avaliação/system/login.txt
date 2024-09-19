@@ -1,0 +1,13 @@
+# Conta de Admin: 
+
+Email:miguel@gmail.com
+Pass: 123
+            
+
+# Conta Users:
+
+
+Email: rui@gmail.com / fabio@gmail.com
+Pass: 123
+
+NOTA: A passe de todas as contas é "123".
